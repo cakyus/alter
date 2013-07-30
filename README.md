@@ -33,3 +33,8 @@ Requirements
 ------------
 
 * Visual Basic Runtime 6
+
+Download
+--------
+
+Click [here] (https://drive.google.com/uc?id=0B5vNBqDeuILANzhzcjgwdHY2S28)
