@@ -26,7 +26,8 @@ Penggunaan
 1. Double-click alter.exe untuk menjalankan aplikasi
 2. Double-click aplikasi untuk memulai pengiriman key Alt+R
 3. Click aplikasi yang akan dikirim key Alt+R
-4. Right-click menghentikan pengiriman key Alt+R dan memunculkan pop up menu
+3. Click aplikasi untuk menghentikan pengiriman key Alt+R
+4. Right-click memunculkan pop up menu
 
 Requirements
 ------------

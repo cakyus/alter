@@ -15,7 +15,7 @@ Begin VB.Form Form1
    ShowInTaskbar   =   0   'False
    Begin VB.Timer Timer1 
       Enabled         =   0   'False
-      Interval        =   1000
+      Interval        =   500
       Left            =   240
       Top             =   360
    End
@@ -28,6 +28,11 @@ Attribute VB_Exposed = False
 Dim IsMouseDown As Boolean
 Dim MouseDownX As Integer
 Dim MouseDownY As Integer
+
+Private Sub Form_Click()
+    Me.BackColor = RGB(250, 0, 0)
+    Timer1.Enabled = False
+End Sub
 
 Private Sub Form_DblClick()
     Me.BackColor = RGB(200, 200, 0)
@@ -77,5 +82,5 @@ End Sub
 
 Private Sub Timer1_Timer()
     Debug.Print "Timer1_Timer"
-    SendKeys "%R"
+    SendKeys "%r"
 End Sub
